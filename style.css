@@ -206,8 +206,8 @@ button:hover {
   color: white;
 }
 
-/* Responsive layout when the screen is < 768px 
-wide make the two columns to stand 
+/* Responsive layout when the screen is < 768px
+wide make the two columns to stand
 on each other instead of next to each other */
 
 @media screen and (max-width: 768px) {
