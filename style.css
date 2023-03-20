@@ -17,6 +17,7 @@ body {
   font-size: 20px;
   text-align: center;
   background-color: #f2f0f0;
+  width: 100%vw;
 }
 
 .main {
@@ -178,6 +179,7 @@ button:hover {
   margin-top: 20px;
   bottom: 0;
   float: left;
+  width: 100%;
 }
 
 .footer p {
@@ -211,9 +213,16 @@ wide make the two columns to stand
 on each other instead of next to each other */
 
 @media screen and (max-width: 768px) {
-  .left-column,
+  .main {
+  width: 100%;
+  margin: auto;
+  display: block;
+  gap: 20px;
+  }
+  .left-column {
+  width: 100%;
+  }
   .rightcolumn {
-    width: 100%;
-    padding: 0%;
+  width: 100%;
   }
 }
