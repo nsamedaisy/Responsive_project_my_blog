@@ -2,84 +2,84 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   font-family:
     Raleway,
     sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  align-items: center;
   background-color: #f2f0f0;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  width: 99vw;
   height: auto;
 }
 
-.header {
-  font-size: 20px;
+header {
   text-align: center;
-  background-color: #f2f0f0;
-  width: 100%;
+  padding: 40px;
+  font-size: 18px;
+  line-height: 1;
 }
 
 .main {
-  width: 75%;
-  margin: auto;
+  width: 70vw;
   display: flex;
-  gap: 20px;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  flex-direction: row;
 }
 
 .left-column {
-  width: 70%;
+  width: 46vw;
+  margin-right: 14px;
+}
+
+.left-column h2 {
+  font-size: 24px;
+}
+
+.left-column h5 {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1;
 }
 
 .rightcolumn {
-  width: 30%;
-  margin-top: 47px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  width: 24vw;
+  margin-left: 14px;
 }
 
 .image {
   width: 100%;
   object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
-.span-image {
-  width: 50px;
+.image-text {
+  padding: 0 12px 12px 14px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 4%;
+  box-shadow: #00000048 2px 1px 2px 3px;
 }
 
 .post {
   background-color: #e6e4e4;
   padding: 20px;
-  margin-top: 0;
-}
-
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 4%;
-  margin-top: 5%;
-}
-
-.card-2 {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 4%;
-}
-
-.card-3 {
-  background-color: white;
-  padding: 10px;
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
 }
 
 .card-4 {
   background-color: #fff;
   box-shadow: #00000048 2px 1px 2px 3px;
+  margin: 3vh 0;
+}
+
+.span-image {
+  width: 50px;
 }
 
 .card-5 {
@@ -108,15 +108,13 @@ button:hover {
 
 .post-items {
   border-bottom: #c8c6c6 1px solid;
-  padding-bottom: 12px;
-  padding-top: 12px;
 }
 
 .post-inner {
   display: flex;
   gap: 15px;
   width: 100%;
-  padding: 0 20px;
+  padding: 12px 20px;
 }
 
 .post-inner:hover {
@@ -177,7 +175,7 @@ footer {
   margin-top: 20px;
   bottom: 0;
   overflow-x: hidden;
-  width: 100%;
+  width: 99vw;
 }
 
 .footer {
@@ -219,19 +217,19 @@ on each other instead of next to each other */
 
 @media screen and (max-width: 768px) {
   .main {
-    width: 100%;
+    width: 99vw;
     margin: auto;
     display: block;
     gap: 20px;
   }
 
   .left-column {
-    width: 90%;
+    width: 90vw;
     margin: auto;
   }
 
   .rightcolumn {
-    width: 90%;
+    width: 90vw;
     margin: auto;
   }
 }
