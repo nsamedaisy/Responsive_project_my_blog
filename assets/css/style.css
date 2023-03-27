@@ -232,6 +232,6 @@ on each other instead of next to each other */
   }
 
   .box {
-    padding: 1px;
+    padding: 0.9px;
   }
 }
