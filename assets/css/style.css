@@ -63,8 +63,8 @@ header {
   background-color: white;
   margin-bottom: 4%;
   box-shadow:
-  0 2px 5px 0 #00000029,
-  0 2px 10px 0 #0000001f;
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
 }
 
 .post {
@@ -75,8 +75,8 @@ header {
 .card-4 {
   background-color: #fff;
   box-shadow:
-  0 2px 5px 0 #00000029,
-  0 2px 10px 0 #0000001f;
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
   margin: 3vh 0;
 }
 
@@ -87,8 +87,8 @@ header {
 .card-5 {
   background-color: #fff;
   box-shadow:
-  0 2px 5px 0 #00000029,
-  0 2px 10px 0 #0000001f;
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
 }
 
 .row::after {
@@ -179,7 +179,7 @@ button:hover {
   padding: 40px;
   background: grey;
   margin: auto;
-  overflow: hidden; 
+  overflow: hidden;
   width: 100%;
 }
 
