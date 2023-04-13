@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family:
+    Raleway,
+    sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  align-items: center;
+  background-color: #f2f0f0;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.main {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.left-column {
+  width: 46vw;
+  margin-right: 14px;
+}
+
+.left-column h2 {
+  font-size: 24px;
+}
+
+.left-column h5 {
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+.rightcolumn {
+  width: 24vw;
+  margin-left: 14px;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-text {
+  padding: 0 12px 12px 14px;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 4%;
+  box-shadow:
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
+}
+
+.post {
+  background-color: #e6e4e4;
+  padding: 20px;
+}
+
+.card-4 {
+  background-color: #fff;
+  box-shadow:
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
+  margin: 3vh 0;
+}
+
+.span-image {
+  width: 50px;
+}
+
+.card-5 {
+  background-color: #fff;
+  box-shadow:
+    0 2px 5px 0 #00000029,
+    0 2px 10px 0 #0000001f;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.comment {
+  float: right;
+}
+
+button {
+  padding: 10px 7px 9px;
+  background-color: white;
+}
+
+button:hover {
+  background-color: #c8c6c6;
+}
+
+.post-items {
+  border-bottom: #c8c6c6 1px solid;
+}
+
+.post-inner {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding: 12px 20px;
+}
+
+.post-inner:hover {
+  background-color: #c8c6c6;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.post-text h3 {
+  margin: 0;
+}
+
+.post-text p {
+  margin: 0;
+}
+
+.tag {
+  background-color: #e6e4e4;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.tag-items {
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  align-items: center;
+}
+
+.tag-text {
+  background-color: #e6e4e4;
+  padding: 3px 7px;
+  font-size: 13px;
+  margin: 2px;
+}
+
+.box1 {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 3px 6px;
+  margin: 2px;
+}
+
+.box {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.footer {
+  padding: 40px;
+  background: grey;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer p {
+  color: white;
+}
+
+.next-button {
+  background-color: #000;
+  color: white;
+  padding: 15px 20px 10px;
+}
+
+.previous-button {
+  background-color: #0e0d0d;
+  padding: 15px 20px 10px;
+  cursor: not-allowed;
+  opacity: 0.2;
+  color: white;
+}
+
+.next-button:hover {
+  background-color: #c8c6c6;
+}
+
+.link {
+  color: white;
+}
+
+/* Responsive layout when the screen is < 768px
+wide make the two columns to stand
+on each other instead of next to each other */
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 94vw;
+    margin: auto;
+    display: block;
+    gap: 20px;
+  }
+
+  .left-column {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .rightcolumn {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .box {
+    padding: 0.9px;
+  }
+}
